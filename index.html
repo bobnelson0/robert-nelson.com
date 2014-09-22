@@ -1,39 +1,200 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Robert S. Nelson</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="img/me.jpg" alt="Me!">
+            </div>
+            <div id="text-header">
+              <h1>Hello,<br> my name is <span>Robert</span> <sup>(Bob)</sup></h1>
+              <p></p>
+              <p><span class="fa fa-envelope fa-fw"></span> <a href="mailto:bob@robert-nelson.com">bob@robert-nelson.com</a> 
+            	| <span class="fa fa-phone fa-fw"></span> <a href="tel:+1-206-659-8338">206.659.8338</a>
+              </p><p>
+                <span class="fa fa-facebook fa-fw"></span> <a href="//www.facebook.com/b0b0b" target="_blank">facebook.com/b0b0b</a>
+            	| <span class="fa fa-twitter fa-fw"></span> <a href="//www.twitter.com/bobnelson0" target="_blank">twitter.com/bobnelson0</a>
+            	| <span class="fa fa-linkedin fa-fw"></span> <a href="//www.linkedin.com/in/robertsnelson" target="_blank">linkedin.com/in/robertsnelson</a>
+              </p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <!-- CONTACT -->
+          <!-- <div class="box clearfix">
+            <h2>Contact Me</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title pull-right">Email</div>
+              <div class="description pull-right"><a href="mailto:bob@robert-nelson.com">bob@robert-nelson.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title pull-right">Phone</div>
+              <div class="description pull-right"><a href="tel:+1-206-659-8338">206.659.8338</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
+              <div class="title pull-right">Facebook</div>
+              <div class="description pull-right"><a href="//www.facebook.com/b0b0b" target="_blank">www.facebook.com/b0b0b</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="//www.twitter.com/bobnelson0" target="_blank">www.twitter.com/bobnelson0</a></div>
+            </div>
+          </div> -->
+          <!-- SUMMARY -->
+          <div class="box">
+            <h2>Summary</h2>
+            <p>A self-motivated, detail oriented software engineer with strong communication, leadership, and team skills seeking a challenging software development position. Experienced at developing Web-based Applications from the beginning to the end of the software design process. </p>
+            <ul>
+            	<li>Strong knowledge in developing web-based applications utilizing team collaboration, object oriented design, and test-driven development.</li>
+				<li>Possesses expertise of Object Oriented PHP + SQL application design.</li>
+				<li>Experienced at using various software and tools to improve software quality and testing.</li>
+				<li>Proven ability to adopt new languages, methodologies, tools, and ideas quickly and easily.</li>
+            </ul>
+          </div>
+          <!-- EXPERIENCE -->
+          <div class="box">
+            <h2>Experience</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="year pull-left">NOW</div>
+                <div class="description pull-right">
+                  <h3>Zonar Systems, Inc.</h3>
+                  <h5>2009 - Now</h5>
+                  <h6 style="font-weight: bold;">Technical Program Manager (Feb 2014 - Now)</h6>
+                  <p>Tasked as a subject matter expert to help a 3rd party team redesign and rebuild our flagship product. I worked directly with product managers to define and create specifications to bring new value to our flagship product.</p> 
+				  <p>Accomplishments:</p>
+					<ul>
+						<li>Defined and documented deliverables timeline based on the deliver date expected by the business.</li>
+						<li>Helped turn specification chaos into manageable milestones.</li>
+						<li>Helped define, document, and drive a new "hybrid approach" when the business needed a sooner delivery date.</li>
+					</ul>
+					
+				  <h6 style="font-weight: bold;">Software Development Manager (Jan 2013 - Feb 2014)</h6>
+                  <p>Worked directly with project managers and QA team to define and improve the development, testing, and release processes. Managed the flagship development team and their workload by promoting better cross-team interactions and encouraging collaboration with project managers and QA team. I acted as a point person for technical discussions and decisions regarding our product, its dependencies and dependents.</p> 
+				  <p>Accomplishments:</p>
+					<ul>
+						<li>Defined, documented, and improved the development to QA hand off by working directly with the QA lead and understanding their needs.</li>
+						<li>Defined, documented, and improved the software release process by setting standards and sprint timelines for the development and QA teams.</li>
+						<li>Moved the flagship team's development defect rate down from 17% to a consistent 6%-8% per sprint.</li>
+						<li>Improved the communication and development processes between teams with inter-product dependancies.</li>
+					</ul>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2008</div>
+                <div class="description pull-right">
+                  <h3>eROI, Inc.</h3>
+                  <p>TODO</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2002</div>
+                <div class="description pull-right">
+                  <h3>Roseburg Forest Products</h3>
+                  <p>TODO</p>
+                </div>
+              </li>
+              <li>
+                <div class="year pull-left">2001</div>
+                <div class="description pull-right">
+                  <h3>Roseburg School District</h3>
+                  <p>TODO</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-5">
+          <!-- SKILLS -->
+          <div class="box">
+            <h2>Skills</h2>
+            <div class="skills">
+              <div class="item-skills" data-percent="1.00">Zend Framework (v1 & v2), Symfony v2+, PHP</div>
+              <div class="item-skills" data-percent="0.60">PHPUnit, phpDocumentor, Composer</div>
+              <div class="item-skills" data-percent="0.75">Bootstrap (v2 & v3), jQuery, jQuery UI</div>
+              <div class="item-skills" data-percent="0.90">Javascript, HTML, CSS</div>
+              <div class="item-skills" data-percent="0.40">jQuery Mobile, Marionette.js</div>
+              <div class="item-skills" data-percent="0.75">Doctrine2, ORM</div>
+              <div class="item-skills" data-percent="0.60">MySQL, PostgreSQL</div>
+              <div class="item-skills" data-percent="0.80">Git & Github, SVN, CVS</div>
+              <div class="item-skills" data-percent="0.80">Object Oriented Design, Test-Driven dev, Agile dev</div>
+              <div class="item-skills" data-percent="0.75">Linux, Mac, Windowsv</div>
+              
+              <div class="skills-legend clearfix">
+                <div class="legend-left legend">Beginner</div>
+                <div class="legend-left legend"><span>Getting better</span></div>
+                <div class="legend-right legend"><span>Rockstar</span></div>
+                <div class="legend-right legend">Pfft, please...</div>
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <!-- <div class="box">
+            <h2>Languages</h2>
+            <div id="language-skills">
+              <div class="skill">Polish <div class="icons pull-right"><div style="width: 80%;" class="icons-red"></div></div></div>
+              <div class="skill">English <div class="icons pull-right"><div style="width: 60%;" class="icons-red"></div></div></div>
+            </div>
+          </div> -->
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2>Education</h2>
+            <div class="job clearfix">
+              <div class="col-xs-3">
+                <div class="where">Oregon State University</div>
+                <div class="year">Corvallis, OR</div>
+                <div class="year">2001 - 2005</div>
+              </div>
+              <div class="col-xs-9">
+                <div class="profession">Bachelor of Science in Computer Science</div>
+                <div class="description">Business Administration Minor</div>
+              </div>
+            </div>
+          </div>
+          <!-- HOBBIES -->
+          <div class="box">
+            <h2>Hobbies</h2>
+            <div class="hobby">Martial Arts</div>
+            <div class="hobby">Fitness</div>
+            <div class="hobby">Travel</div>
+            <div class="hobby">Scuba</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JQUERY -->
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- BOOTSTRAP -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- SCRIPTS -->
+    <script src="js/main.js"></script>
+    <!-- GA -->
+    <!-- <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-51302339-1', 'kamsolutions.pl');
+      ga('send', 'pageview');
+    </script> -->
+  </body>
 </html>
