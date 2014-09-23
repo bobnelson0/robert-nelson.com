@@ -23,7 +23,8 @@ body{
   font-weight: 400;
   font-size: 1em;
   color: #363636;
-  background: #ccc; /*#ededed;*/
+  /*background: #ccc; #ededed;*/
+  background: #ccc url('../img/grey_wash_wall.png'); 
 }
 /*******************************************
 CONTAINER
@@ -42,16 +43,16 @@ PHOTO (AVATAR)
 #photo{
   /*width: 160px;
   height: 160px;*/
-  border-radius: 50%;
+  border-radius: 15%;
   overflow: hidden;
   padding: 5px;
   background: #ededed;
   display: inline-block;
 }
 #photo img{
-  width: 196px;
-  height: 235px;
-  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  border-radius: 15%;
 }
 #text-header h1{
   margin: 0;
@@ -101,6 +102,14 @@ DEFAULT BOX
   font-size: 1.3em;
   line-height: 1.5em;
 }
+/*******************************************
+SUMMARY
+*******************************************/
+.summary-list li{
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
 /*******************************************
 EDUCATION
 *******************************************/
@@ -195,6 +204,31 @@ EXPERIENCES
 .job .description{
   font-size: 1.2em;
   line-height: 1.5em;
+}
+.employer{
+	font-size: 1.5em;
+}
+.employed-date{
+	font-size: 1.5em;
+	color: #363636;
+}
+.job-title-date{
+	margin-top:10px;
+	font-weight: bold;
+}
+.job-description{}
+.job-accomps{}
+.accomps{}
+.accomps-list {
+	display:none;
+}
+.accomps-list li{
+	font-size: 1.3em;
+	margin-bottom: 3px;
+	list-style-type: disc;
+}
+.accomps-list li:last-child{
+	margin-bottom: 10px;
 }
 /*******************************************
 CONTACT
@@ -305,6 +339,9 @@ LANGUAGES
   height: 14px;
   background: url(../img/star-grey.png) no-repeat;
 }
+#language-skills .skill .icons-blue{
+  background: url(../img/star-blue.png) no-repeat;
+}
 #language-skills .skill .icons-red{
   background: url(../img/star-red.png) no-repeat;
 }
@@ -316,12 +353,13 @@ HOBBIES
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 5px;
-  padding: 5px 5px 5px 25px;
+  /*padding: 5px 5px 5px 25px;*/
+  padding: 5px;
   background: #58AD9A; /*#A75265;*/
   position: relative;
   font-size: 1.2em;
 }
-.hobby:before{
+/*.hobby:before{
   content: "\f004";
   font-family: FontAwesome;
   font-style: normal;
@@ -329,7 +367,7 @@ HOBBIES
   position: absolute;
   top: 6px;
   left: 7px;
-}
+}*/
 /*******************************************
 MEDIA
 *******************************************/

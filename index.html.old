@@ -16,63 +16,28 @@
           <div id="photo-header" class="text-center">
             <!-- PHOTO (AVATAR) -->
             <div id="photo">
-              <img src="https://s.gravatar.com/avatar/14401032449b0365e59b7916b1d949b0?s=160" alt="Me! (Linked via gravatar.com)">
+              <img src="img/me.jpg" alt="Me!">
             </div>
             <div id="text-header">
               <h1>Hello,<br> my name is <span>Robert</span> <sup>(Bob)</sup></h1>
             </div>
+            
           </div>
         </div>
       </div>
       <div class="row">
-      	<div class="col-xs-12 col-sm-7">
+        <div class="col-xs-12 col-sm-7">
           <!-- SUMMARY -->
           <div class="box">
             <h2>Summary</h2>
             <p>A self-motivated, detail oriented software engineer with strong communication, leadership, and team skills seeking a challenging software development position. Experienced at developing Web-based Applications from the beginning to the end of the software design process. </p>
-            <ul class="summary-list">
+            <ul>
             	<li>Strong knowledge in developing web-based applications utilizing team collaboration, object oriented design, and test-driven development.</li>
 				<li>Possesses expertise of Object Oriented PHP + SQL application design.</li>
 				<li>Experienced at using various software and tools to improve software quality and testing.</li>
 				<li>Proven ability to adopt new languages, methodologies, tools, and ideas quickly and easily.</li>
             </ul>
           </div>
-        </div>
-          <div class="col-xs-12 col-sm-5">
-          <!-- CONTACT -->
-	          <div class="box clearfix">
-	            <h2>Contact Me</h2>
-	            <div class="contact-item">
-	              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-	              <div class="title pull-right">Email</div>
-	              <div class="description pull-right"><a href="mailto:bob@robert-nelson.com">bob@robert-nelson.com</a></div>
-	            </div>
-	            <div class="contact-item">
-	              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
-	              <div class="title pull-right">Phone</div>
-	              <div class="description pull-right"><a href="tel:+1-206-659-8338">206.659.8338</a></div>
-	            </div>
-	            <div class="contact-item">
-	              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
-	              <div class="title pull-right">LinkedIn</div>
-	              <div class="description pull-right"><a href="//www.linkedin.com/in/robertsnelson" target="_blank">www.linkedin.com/in/robertsnelson</a></div>
-	            </div>
-	            <div class="contact-item">
-	              <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
-	              <div class="title pull-right">Facebook</div>
-	              <div class="description pull-right"><a href="//www.facebook.com/b0b0b" target="_blank">www.facebook.com/b0b0b</a></div>
-	            </div>
-	            <div class="contact-item">
-	              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
-	              <div class="title pull-right">Twitter</div>
-	              <div class="description pull-right"><a href="//www.twitter.com/bobnelson0" target="_blank">www.twitter.com/bobnelson0</a></div>
-	            </div>
-	          </div>
-        </div>
-        
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
           <!-- EXPERIENCE -->
           <div class="box">
             <h2>Experience</h2>
@@ -85,7 +50,7 @@
                   
                   <h5 class="job-title-date">Technical Program Manager (Feb 2014 - Now)</h5>
                   <p class="job-description">Tasked as a subject matter expert to help a 3rd party team redesign and rebuild our flagship product. I worked directly with product managers to define and create specifications to bring new value to our flagship product.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>Defined and documented deliverables timeline based on the deliver date expected by the business.</li>
 						<li>Helped turn specification chaos into manageable milestones.</li>
@@ -95,7 +60,7 @@
 				  
 				  <h5 class="job-title-date">Software Development Manager (Jan 2013 - Feb 2014)</h5>
                   <p class="job-description">Worked directly with project managers and QA team to define and improve the development, testing, and release processes. Managed the flagship development team and their workload by promoting better cross-team interactions and encouraging collaboration with project managers and QA team. I acted as a point person for technical discussions and decisions regarding our product, its dependencies and dependents.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>Defined, documented, and improved the development to QA hand off by working directly with the QA lead and understanding their needs.</li>
 						<li>Defined, documented, and improved the software release process by setting standards and sprint timelines for the development and QA teams.</li>
@@ -106,7 +71,7 @@
 				  
 				  <h5 class="job-title-date">Team Lead Software Developer (Apr 2011 – Jan 2013)</h5>
                   <p class="job-description">Managed a team of developers, both new and senior, in bringing our flagship product forward. I protected the scrum process, coordinated resources and product releases with project managers, and designed and developed software with the team.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>Promoted to lead (and manager) for flagship product team.</li>
 						<li>On-boarded and mentored new and "green" developers into our team.</li>
@@ -117,7 +82,7 @@
 				  
 				  <h5 class="job-title-date">Software Developer (Mar 2009 – Ape 2011)</h5>
                   <p class="job-description">Developed web-based applications utilizing OO PHP, the Zend Framework, jQuery, and ajax design.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>In my first month, I created a new application which allowed dispatcher and drivers to send two-way messages via a web interface and the in-dash Garmin unit.</li>
 						<li>Drove an internal effort to migrate the legacy system to use the Zend Framework.</li>
@@ -137,7 +102,7 @@
                   
 				  <h5 class="job-title-date">Software Engineer (Jan 2008 - Oct 2008)</h5>
                   <p class="job-description">Worked in a fast-paced, team environment creating new products for the company's platform. Main responsibilities included working with the team to outline weekly sprint goals, features, and testing criteria; writing tests cases; writing software and features to meet testing requirements and feature specifications.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>Primary developer and co-architect of eROI's payment system and credit-card gateway.</li>
 						<li>Key player in engineering automated PHP testing suite using existing open source software.</li>
@@ -147,7 +112,7 @@
                   
 				  <h5 class="job-title-date">Web Application Developer (Jan 2006 - Jan 2008)</h5>
                   <p class="job-description">Developed web based applications, using PHP + MySQL, based on design and functionality specifications. Worked with clients, managers, and production artists to outline project specifications and timelines.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>Created specifications for and developed an online application system for a high profile client who required an extremely short turn around time.</li>
 						<li>Developed a custom event registration system for a high profile and high traffic event site.</li>
@@ -158,7 +123,7 @@
 				  <h5 class="job-title-date">Web Production Developer (May 2003 - Sep 2004*)</h5>
 				  <p class="job-description">*College internship over two summers. <br/>
 				  	Served as an all around Web production artist. Created websites using HTML, CSS, and PHP based on graphic designers' PSD files. Used the company's email marketing platform to create templates and landing pages for client mailing lists.</p> 
-				  <p class="job-accomps"><a href="#" class="accomps"><span class="fa fa-certificate fa-fw"></span>Accomplishments...</a>
+				  <p class="job-accomps"><a href="#" class="accomps">Accomplishments...</a>
 					  <ul class="accomps-list">
 						<li>Created custom client websites using PHP, Javascript, HTML, and CSS.</li>
 						<li>Converted graphics files generated by production artists to HTML and CSS.</li>
@@ -174,11 +139,11 @@
                   <h3 class="employer">Roseburg Forest Products</h3>
                   <h4 class="employed-date">2001 - 2002</h4>
                   
-				  <h5 class="job-title-date">IT &amp; Help desk technician (Jun 2001 - Sep 2002)</h5>
+				  <h5 class="job-title-date">IT & Help desk technician (Jun 2001 - Sep 2002)</h5>
 				  <p class="job-description">
-					Answered Help Desk calls and solved employee computer issues.<br />
-					Assisted Help Desk technicians and network managers.<br />
-					Deployed new computer systems to internal and off site locations.<br /> 	  
+Answered Help Desk calls and solved employee computer issues.<br />
+Assisted Help Desk technicians and network managers.<br />
+Deployed new computer systems to internal and off site locations.<br /> 	  
 				  </p>
                 </div>
               </li>
@@ -190,9 +155,9 @@
                   
 				  <h5 class="job-title-date">Assistant Database Administrator (Jun 2000 - Jun 2001)</h5>
 				  <p class="job-description">
-					Maintained and updated district student database (28,000+ records). <br />
-					Created interfaces for database updating to be used by district teachers. <br />
-					Created web sites as needed. <br />  
+Maintained and updated district student database (28,000+ records). <br />
+Created interfaces for database updating to be used by district teachers. <br />
+Created web sites as needed. <br />  
 				  </p>
                 </div>
               </li>
@@ -200,6 +165,58 @@
           </div>
         </div>
         <div class="col-xs-12 col-sm-5">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2>Contact Me</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
+              <div class="title pull-right">Email</div>
+              <div class="description pull-right"><a href="mailto:bob@robert-nelson.com">bob@robert-nelson.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
+              <div class="title pull-right">Phone</div>
+              <div class="description pull-right"><a href="tel:+1-206-659-8338">206.659.8338</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-facebook fa-fw"></span></div>
+              <div class="title pull-right">Facebook</div>
+              <div class="description pull-right"><a href="//www.facebook.com/b0b0b" target="_blank">www.facebook.com/b0b0b</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-twitter fa-fw"></span></div>
+              <div class="title pull-right">Twitter</div>
+              <div class="description pull-right"><a href="//www.twitter.com/bobnelson0" target="_blank">www.twitter.com/bobnelson0</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="//www.linkedin.com/in/robertsnelson" target="_blank">www.linkedin.com/in/robertsnelson</a></div>
+            </div>
+          </div>
+          <!-- SKILLS --
+          <div class="box">
+            <h2>Skills</h2>
+            <div class="skills">
+              <div class="item-skills" data-percent="1.00">Zend Framework (v1 & v2), Symfony v2+, PHP</div>
+              <div class="item-skills" data-percent="0.60">PHPUnit, phpDocumentor, Composer</div>
+              <div class="item-skills" data-percent="0.75">Bootstrap (v2 & v3), jQuery, jQuery UI</div>
+              <div class="item-skills" data-percent="0.90">Javascript, HTML, CSS</div>
+              <div class="item-skills" data-percent="0.40">jQuery Mobile, Marionette.js</div>
+              <div class="item-skills" data-percent="0.75">Doctrine2, ORM</div>
+              <div class="item-skills" data-percent="0.60">MySQL, PostgreSQL</div>
+              <div class="item-skills" data-percent="0.80">Git & Github, SVN, CVS</div>
+              <div class="item-skills" data-percent="0.80">Object Oriented Design, Test-Driven dev, Agile dev</div>
+              <div class="item-skills" data-percent="0.75">Linux, Mac, Windowsv</div>
+              
+              <div class="skills-legend clearfix">
+                <div class="legend-left legend">Beginner</div>
+                <div class="legend-left legend"><span>Getting better</span></div>
+                <div class="legend-right legend"><span>Rockstar</span></div>
+                <div class="legend-right legend">Pfft, please...</div>
+              </div>
+            </div>
+          </div> -->
           <!-- SKILLS -->
           <div class="box">
             <h2>Skills</h2>
@@ -211,7 +228,7 @@
               <div class="skill">Doctrine2 <div class="icons pull-right"><div style="width: 70%;" class="icons-blue"></div></div></div>
               <div class="skill">jQuery <div class="icons pull-right"><div style="width: 100%;" class="icons-blue"></div></div></div>
               <div class="skill">MarionetteJS <div class="icons pull-right"><div style="width: 20%;" class="icons-blue"></div></div></div>
-              <div class="skill">Bootstrap (v2 &amp; v3) <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div>
+              <div class="skill">Bootstrap (v2 & v3) <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div>
 
 			  <div class="skill"><b>Languages</b></div>
               <div class="skill">PHP <div class="icons pull-right"><div style="width: 100%;" class="icons-blue"></div></div></div>
@@ -222,7 +239,7 @@
               <div class="skill">CSS <div class="icons pull-right"><div style="width: 100%;" class="icons-blue"></div></div></div>
               
               <div class="skill"><b>Tools</b></div>
-              <div class="skill">Git &amp; Github <div class="icons pull-right"><div style="width: 95%;" class="icons-blue"></div></div></div>
+              <div class="skill">Git & Github <div class="icons pull-right"><div style="width: 95%;" class="icons-blue"></div></div></div>
               <div class="skill">SVN <div class="icons pull-right"><div style="width: 80%;" class="icons-blue"></div></div></div>
               <div class="skill">CVS <div class="icons pull-right"><div style="width: 60%;" class="icons-blue"></div></div></div>
               <div class="skill">PHPUnit <div class="icons pull-right"><div style="width: 80%;" class="icons-blue"></div></div></div>
@@ -232,7 +249,7 @@
               <div class="skill"><b>Methodologies</b></div>
               <div class="skill">Agile Development <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div>
               <div class="skill">Test-Driven Development <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div>
-              <div class="skill">Object Oriented Design <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div>
+              <div class="skill">Object Oriented Design <div class="icons pull-right"><div style="width: 90%;" class="icons-blue"></div></div></div><div class="skill"><b>Methodologies</b></div>
               
               <div class="skill"><b>Systems</b></div>
               <div class="skill">Linux <div class="icons pull-right"><div style="width: 100%;" class="icons-blue"></div></div></div>
