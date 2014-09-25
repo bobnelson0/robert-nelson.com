@@ -62,7 +62,7 @@ PHOTO (AVATAR)
   text-transform: uppercase;
   letter-spacing: -1px;
 }
-#text-header h1::first-line{
+#text-header h1:first-line{
   font-size: 1.5em;
   letter-spacing: -4px;
   font-weight: 800;
@@ -156,7 +156,7 @@ EDUCATION
   background: #eee;
   margin-bottom: 10px;
   position: relative;
-  padding: 10px 10px 0 10px;
+  padding: 10px;
   border-bottom: 1px solid #ddd;
 }
 #education .description:after {
@@ -217,7 +217,11 @@ EXPERIENCES
 	font-weight: bold;
 }
 .job-description{}
-.job-accomps{}
+.job-accomps{
+	margin-left: 10px;
+	top: -5px;
+	position: relative;
+}
 .accomps{
 	color: #138D9C;
 }
