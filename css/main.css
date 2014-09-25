@@ -95,7 +95,7 @@ DEFAULT BOX
   text-transform: uppercase;
 }
 .box h2:before{
-  content: '//';
+  /*content: '//';*/
   margin-right: 5px;
 }
 .box p{
@@ -218,7 +218,12 @@ EXPERIENCES
 }
 .job-description{}
 .job-accomps{}
-.accomps{}
+.accomps{
+	color: #138D9C;
+}
+.accomps a {
+	color: #138D9C;
+}
 .accomps-list {
 	display:none;
 }
@@ -328,11 +333,18 @@ SKILLS
 /*******************************************
 LANGUAGES
 *******************************************/
+#language-skills .skill-cat{
+  font-size: 1.3em;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
 #language-skills .skill{
   font-size: 1.3em;
   margin: 10px 0;
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
+  margin-left: 10px;
 }
 #language-skills .skill .icons{
   width: 111px;
