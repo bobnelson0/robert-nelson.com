@@ -24,10 +24,10 @@
 	<meta name="application-name" content="Robert S. Nelson" />
 	
 	<!-- IE11 tiles -->
-	<meta name="msapplication-square70x70logo" content="tile.png"/>
-	<meta name="msapplication-square150x150logo" content="tile.png"/>
-	<meta name="msapplication-wide310x150logo" content="tile-wide.png"/>
-	<meta name="msapplication-square310x310logo" content="tile.png"/>
+	<meta name="msapplication-square70x70logo" content="tile128x128.png"/>
+	<meta name="msapplication-square150x150logo" content="tile270x270.png"/>
+	<meta name="msapplication-wide310x150logo" content="tile558x270.png"/>
+	<meta name="msapplication-square310x310logo" content="tile558x558.png"/>
 	
   </head>
   <body>
@@ -35,7 +35,7 @@
       <div class="row">
         <div class="col-xs-12">
           <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
+            <!-- PHOTO -->
             <div id="photo">
               <img src="https://s.gravatar.com/avatar/14401032449b0365e59b7916b1d949b0?s=160" alt="Me! (Linked via gravatar.com)">
             </div>
@@ -98,7 +98,7 @@
           <!-- EXPERIENCE -->
           <div class="box">
             <h2><span class="fa fa-trophy fa-fw"> </span> Experience</h2>
-            <ul id="education" class="clearfix">
+            <ul class="experience clearfix">
               <li>
                 <div class="year pull-left">NOW</div>
                 <div class="description pull-right">
@@ -225,8 +225,8 @@
           <!-- SKILLS -->
           <div class="box">
             <h2><span class="fa fa-wrench fa-fw"> </span> Skills</h2>
-            <div id="language-skills">
-              <div class="skill-cat"><b>Frameworks</b></div>
+            <div class="skills">
+              <div class="skill-cat"><b>Frameworks</b> (<span class="fa fa-star fa-fw"></span>x1 = Newbie, <span class="fa fa-star fa-fw"></span>x5 = Rockstar)</div>
               <div class="skill">Zend Framework v1 <div class="icons pull-right"><div style="width: 100%;" class="icons-blue"></div></div></div>
               <div class="skill">Zend Framework v2 <div class="icons pull-right"><div style="width: 45%;" class="icons-blue"></div></div></div>
               <div class="skill">Symfony v2 <div class="icons pull-right"><div style="width: 80%;" class="icons-blue"></div></div></div>
@@ -300,13 +300,15 @@
     <!-- SCRIPTS -->
     <script src="js/main.js"></script>
     <!-- GA -->
-    <!-- <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-51302339-1', 'kamsolutions.pl');
-      ga('send', 'pageview');
-    </script> -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-55363413-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
   </body>
 </html>
