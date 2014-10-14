@@ -10,5 +10,6 @@ var init = function(){
 		e.preventDefault();
 		$(e.target).parent().next('ul').slideToggle();
 	});
+	$('#first-accomps').click();
 };
 $(document).ready(init);
